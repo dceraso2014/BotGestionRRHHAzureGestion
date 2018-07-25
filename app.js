@@ -45,7 +45,7 @@ var previewRecognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerPreviewDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [previewRecognizer],
-    defaultMessage: 'No match! Try changing the query terms!',
+    defaultMessage: 'Disculpa, no te podemos ayudar con esta pregunta, por favor envianos un correo a <a target="_blank" href="rrgg@gcgestion.com.ar">rrhh@gcgestion.com.ar</a>',
     qnaThreshold: 0.3
 }
 );
@@ -61,7 +61,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-    defaultMessage: 'No match! Try changing the query terms!',
+    defaultMessage: 'Disculpa, no te podemos ayudar con esta pregunta, por favor envianos un correo a <a target="_blank" href="rrgg@gcgestion.com.ar">rrhh@gcgestion.com.ar</a>',
     qnaThreshold: 0.3
 }
 );
